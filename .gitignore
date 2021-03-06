@@ -1,25 +1,7 @@
-sites/default/files/css/
-sites/default/files/js/
-sites/default/files/php/
+# Ignore configuration files that may contain sensitive information.
+sites/*/*settings*.php
 
-sites/default/default.services.yml
-sites/default/services.yml
-sites/default/settings.php
-sites/default/default.settings.php
-sites/default/default.services.yml
-sites/default/files/css/css_35fqv7NYNNIsRwp41HyR3pDgvvRqpTvfcl1iBenEKBg.css
-sites/default/files/css/css_35fqv7NYNNIsRwp41HyR3pDgvvRqpTvfcl1iBenEKBg.css.gz
-sites/default/files/css/css_aifXx6ZbfPAXZTY1FGXrP6WPK_ZD08SumfqL3ng7fYw.css
-sites/default/files/css/css_aifXx6ZbfPAXZTY1FGXrP6WPK_ZD08SumfqL3ng7fYw.css.gz
-sites/default/files/css/css_BocvtRd2AxyMo4MlnhSxw7zfppz_j8Mq0fpTZ7Lqf6U.css
-sites/default/files/css/css_BocvtRd2AxyMo4MlnhSxw7zfppz_j8Mq0fpTZ7Lqf6U.css.gz
-sites/default/files/css/css_IPvFjxVAOHPcivu1UQWzuqG0sBtusCTFaW5xCxjr6mY.css
-sites/default/files/css/css_IPvFjxVAOHPcivu1UQWzuqG0sBtusCTFaW5xCxjr6mY.css.gz
-sites/default/files/css/css_leGbzOHbUeie_jjUx2FsQ6JbK9e2o-1WwxJORNLujXw.css
-sites/default/files/css/css_leGbzOHbUeie_jjUx2FsQ6JbK9e2o-1WwxJORNLujXw.css.gz
-sites/default/files/css/css_rppRGD_OoHfR_SJsouUbDXbYqdDsbR40sRSsm5MvFnw.css
-sites/default/files/css/css_rppRGD_OoHfR_SJsouUbDXbYqdDsbR40sRSsm5MvFnw.css.gz
-sites/default/files/css/css_WqB8auB4lKvuXZFYAUN8NdPH_9V7WyvULmKOJxct1Ms.css
-sites/default/files/css/css_WqB8auB4lKvuXZFYAUN8NdPH_9V7WyvULmKOJxct1Ms.css.gz
-sites/default/files/css/css_Z5jMg7P_bjcW9iUzujI7oaechMyxQTUqZhHJ_aYSq04.css
-sites/default/files/css/css_Z5jMg7P_bjcW9iUzujI7oaechMyxQTUqZhHJ_aYSq04.css.gz
+# Ignore paths that contain generated content.
+files/
+sites/*/files
+sites/*/private
