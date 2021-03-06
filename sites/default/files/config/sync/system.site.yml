@@ -1,0 +1,14 @@
+uuid: e1380927-3844-409b-8096-d3034f966ca1
+name: 'drupal certification traning'
+mail: dineshreddykancharla@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
