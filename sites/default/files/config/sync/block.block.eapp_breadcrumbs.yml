@@ -1,0 +1,22 @@
+uuid: 6d48fe06-07d0-4e22-8383-fb486c4972ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eapp
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: eapp_breadcrumbs
+theme: eapp
+region: branding
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 0e779e05-8295-4198-8763-58dd0b4d8d3d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eapp
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: eapp_local_tasks
+theme: eapp
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

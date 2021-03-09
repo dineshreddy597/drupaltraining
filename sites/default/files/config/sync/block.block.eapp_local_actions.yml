@@ -1,0 +1,20 @@
+uuid: 5885a430-5b11-4832-af6b-1ee0472bed8c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eapp
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: eapp_local_actions
+theme: eapp
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
