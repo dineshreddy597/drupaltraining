@@ -1,0 +1,22 @@
+uuid: 152b0ee6-155d-4f32-af82-f5fde2c00edd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eapp
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: eapp_content
+theme: eapp
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

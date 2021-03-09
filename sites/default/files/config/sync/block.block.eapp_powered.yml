@@ -1,0 +1,22 @@
+uuid: 5b680d75-f29a-4cbc-8a81-203add8ed528
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eapp
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: eapp_powered
+theme: eapp
+region: branding
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

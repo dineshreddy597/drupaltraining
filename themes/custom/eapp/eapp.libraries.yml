@@ -3,4 +3,5 @@ global-styling:
   js:
     js/script.js: {}
   css:
-    css/style.css: {}
+    theme:
+      css/style.css: {}

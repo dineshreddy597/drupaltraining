@@ -1,0 +1,20 @@
+uuid: 440e80c5-6a5c-407a-8ea7-1b786d2003be
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eapp
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: eapp_page_title
+theme: eapp
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

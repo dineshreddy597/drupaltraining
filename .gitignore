@@ -2,6 +2,8 @@
 sites/*/*settings*.php
 
 # Ignore paths that contain generated content.
-files/
-sites/*/files
+# files/
+# sites/*/files
 sites/*/private
+modules/contrib/*
+sites/drupaltraining.dd/*
